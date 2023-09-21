@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
-}
+/* .registerWrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.registerWrap h1{margin: 3% auto;}
+.registerWrap form{}
+.registerWrap form input:not(:last-child){
+    display: block;
+    margin: 2% auto;
+    height: 38px;
+    width: 15vw;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #ddd;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input[type=submit]{border-radius: 20px;
+	border: 1px solid #ffed2b;
+	background-color: #ffed2b;
+	color: #FFFFFF;
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+    display: block;
+    margin: 5% auto;
 }
-
-.App-link {
-  color: #61dafb;
+.linkBtn{color: #393939; text-decoration: none; margin-top: 4%; font-weight: bold;} */
+*{margin: 0; padding: 0; box-sizing: border-box;}
+button{cursor: pointer;}
+#signupWrap{
+    background: #f2f0bf;
+    padding: 2% 5%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#signupWrap .bg{border-radius: 6px; background-color: white; width: 50vw; margin: 0 auto; padding: 1%;}
+#signupWrap .bg h2{margin: 5% auto 1%; text-align: center;}
+#signupWrap .bg>p{text-align: center; margin-bottom: 3%; font-size: .9rem;}
+#signupWrap .bg form{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+#signupWrap .bg div{width: 350px; text-align: center;}
+#signupWrap .bg div:first-child input{width: 65%; display: inline; margin-right: 2%;}
+#signupWrap .bg div:first-child button{display: inline; width: 20%; background-color: #c6e79e; border-radius: 4px; border: 1px solid #c6e79e; height: 40px; color: white; font-weight: bold;}
+#signupWrap .bg div label{display: block; text-align: center;}
+#signupWrap .bg div input{
+    margin: 2% auto;
+    height: 38px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    width: 300px;
+}
+#signupWrap .bg div .isOkTxt{
+    display: inline;
+    color: green;
+    position: absolute;
+    transform: translateY(20px);
+    font-size: 10px;
+}
+#signupWrap .signupBtn{
+    border-radius: 4px;
+	border: 1px solid #c6e79e;
+	background-color: #cae79e;
+	color: #FFFFFF;
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	transition: transform 80ms ease-in;
+    display: block;
+    margin: 5% auto;
+    cursor: pointer;
+    box-shadow: rgba(0,0,0,.2) 3px 4px 4px;
+}
+.toLoginBtn{border-radius: 4px;
+	border: 1px solid #ffed2b;
+	background-color: #ffed2b;
+	color: #FFFFFF;
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	transition: transform 80ms ease-in;
+    display: block;
+    margin: 5% auto;
+    cursor: pointer;
+    box-shadow: rgba(0,0,0,.2) 3px 4px 4px;}
